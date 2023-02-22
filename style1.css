@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    margin:0 auto ;
+    padding: 0 119px;
+    max-width: 110rem;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 21px 75px;
+    height: 80px;
+  
+}  
+nav ul{
+    align-items: center;
+    display: flex;
+    gap: 63px;
+    font-weight: 500;
+    padding-left: 50px;
+  }
+
+.list{
+    flex-grow: 1;
+    padding-right: 50px;
+}    
+.hero{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+nav ul li:hover{
+    color: #5955b3;
+}
+
+.button{ 
+    background-color: #5955b3;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+    border:none;
+    color:#ffffff;
+}
+.button:hover{
+    background-color: cornsilk;
+    color: #000;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-left{
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    margin-top: 45px;
+    
+}
+.head-section{
+    font-family:"poppins";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    color:#3c2f60 ;
+    line-height:75px;
+    margin-left:60px;
+    margin-top: 80px;
+}
+span{
+    color: #5955b3;
+}
+.section{
+    font-size:18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #828282;
+    margin-top: 35px;
+    font-family:"poppins";
+    font-style: normal;
+    margin-left: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-section{
+    background-color: #5955b3;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+    border:none;
+    color:#ffffff;
+    margin-top: 88px;
+    margin-left:110px ;
+}
+.button-section:hover{
+     background-color: cornsilk;
+    color: #000;
+};
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+
